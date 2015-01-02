@@ -1,0 +1,195 @@
+body{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+#title{
+    margin: 0px 0px 0px 0px;
+    padding: 30px 0px 0px 200px;
+   font-size: 25px;
+    font-family: Rockwell;
+    display: inline-block;
+    font-weight: bolder;
+}
+    
+#menu{ 
+    height: 100px;
+    background-color: #F8F8FF;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    display: inline-block;
+    width: 100%;
+    border-bottom: 5px solid #C0C0C0;
+   
+}
+
+.introMenu{
+    color: black;
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 10px 0px 10px;
+    float: right;
+    font-size: 25px;
+    font-family: Rockwell;
+    line-height: 100px; 
+    
+}
+
+.introMenu:hover{
+    background-color: #000000;
+    color:#F8F8FF;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    
+
+}
+
+a:visited{
+    text-decoration: none;
+    color: #000000;
+}
+
+
+    
+#portfolioIcon{
+    margin-right: 100px;
+    height: 100%;
+    
+}
+
+
+
+.grow {
+  display: inline-block;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.grow:hover, .grow:focus, .grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.wrapper{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+@media all and (max-width:1100px) {
+    .wrapper {
+    width:auto;
+    }
+}
+
+#doublelift{
+    height: 400px;
+    width: 350px;
+    margin: 0px 0px 0px 0px;
+    border-radius: 30px;
+}
+
+#introTitle{
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 10px 0px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    display:block;
+    vertical-align: top;
+}
+
+
+#introP{
+    display:inline-block;
+    width: 49%;
+    float:right;
+}
+#introPic{
+    display:inline-block;
+    width:49%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#aboutMe{
+    
+    background-image: url("blackBackground.png") ;
+    
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 75px 0px;
+    line-height: 200%  
+}
+
+#journey{
+    background-color: #E0E0E0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#journeyHeader{
+    font-family: 'Montserrat', sans-serif;
+    font-size:200%;
+    margin: 0px 0px 0px 0px;
+    padding: 42px 0px 40px 0px;
+}
+
+#waterlooPic{
+    text-align: center;
+    
+    width: 400px;
+    height: auto;
+   
+}
+
+#journeyPic{
+ text-align: center;
+ margin: 0 auto;
+ display:block;
+ height: 320px;
+ width: 400px;
+  
+}
+
+.sepia {
+			filter: sepia(100%);
+			-webkit-filter: sepia(100%);
+			-moz-filter: sepia(100%);
+			-o-filter: sepia(100%);
+			-ms-filter: sepia(100%);
+}
+
+.sepia:hover {
+			filter: sepia(0);
+			-webkit-filter: sepia(0);
+			-moz-filter: sepia(0);
+			-o-filter: sepia(0);
+			-ms-filter: sepia(0);
+}
+
+
+#lifestory{
+    line-height: 175%;
+    margin: 0px 0px 0px 0px;
+    padding: 40px 50px 20px 50px;
+}
+#contact{
+    background-color: #A5D6A7;
+    font-family: 'Open Sans', sans-serif;
+}
+#contactInfo{
+    padding: 20px 0px 0px 50px;
+    font-size: 20px
+}
+#shoutout{
+    padding: 20px 0px 40px 50px;
+    font-family: 'Dancing Script', cursive;
+}
