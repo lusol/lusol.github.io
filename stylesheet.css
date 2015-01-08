@@ -88,7 +88,7 @@ a:visited{
     }
 }
 
-#doublelift{
+#brianPic{
     height: 350px;
     width: 350px;
     margin: 0px 0px 0px 0px;
@@ -97,7 +97,7 @@ a:visited{
 
 #introTitle{
     margin: 0px 0px 0px 0px;
-    padding: 10px 0px 35px 0px;
+    padding: 30px 0px 35px 0px;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     display:block;
@@ -188,10 +188,28 @@ a:visited{
     color: #FFFFFF;
 }
 #contactInfo{
-    padding: 40px 0px 0px 50px;
+    padding: 40px 0px 0px 0px;
     font-size: 20px
 }
+#contactGreeting{
+    
+    text-align: center;
+}
+
+#contactIcons{
+    
+    margin: 30px auto 0px auto;
+    
+    text-align: center;
+}
+
+.fa{
+    padding: 0px 12px 0px 12px;
+    color: #FFFFFF;
+}
+
 #shoutout{
-    padding: 40px 0px 40px 50px;
+    padding: 40px 0px 40px 0px;
     font-family: 'Dancing Script', cursive;
+    text-align: center;
 }
