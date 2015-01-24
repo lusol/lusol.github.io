@@ -182,6 +182,33 @@ a:visited{
     margin: 0px 0px 0px 0px;
     padding: 70px 50px 70px 50px;
 }
+
+#projects{
+    background-image: url("projectBackground.JPG");
+    padding: 20px 0px 40px 0px;
+}
+
+#projectIntro{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+    
+}
+
+#projectTitle{
+    margin: 0px 0px 0px 0px;
+}
+
+#projectPictures{
+    display: inline-block;
+    width: 49%;
+    vertical-align: middle;
+    
+}
+
 #contact{
     background-image: url("blackBackground.jpg");
     font-family: 'Open Sans', sans-serif;
