@@ -3,9 +3,6 @@ body{
     padding: 0px 0px 0px 0px;
 }
 
-.rockwell{
-    font-family: Rockwell;
-}
 #title{
     margin: 0px 0px 0px 0px;
     padding: 30px 0px 0px 200px;
@@ -16,13 +13,27 @@ body{
 }
     
 #menu{ 
+    height: 100px;
     background-color: #F8F8FF;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    display: inline-block;
+    width: 100%;
+    border-bottom: 5px solid #C0C0C0;
+   
 }
 
 
-.introMenu:hover{
-    background-color: #000000;
-    color:#F8F8FF;
+.introMenu{
+    color: black;
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 10px 0px 10px;
+    float: right;
+    font-size: 25px;
+    font-family: Rockwell;
+    line-height: 100px; 
+    
 }
 
 a:hover, a:visited, a:link, a:active
