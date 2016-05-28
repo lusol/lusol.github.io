@@ -1,238 +1,162 @@
-body{
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
+.big-icon-40{
+    font-size: 220px;
 }
 
-#title{
-    margin: 0px 0px 0px 0px;
-    padding: 30px 0px 0px 200px;
-   font-size: 25px;
-    font-family: Rockwell;
-    display: inline-block;
-    font-weight: bolder;
+a:hover{
+  color: #ffffff !important;
+    text-decoration: none !important;
 }
-    
-#menu{ 
-    height: 100px;
-    background-color: #F8F8FF;
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
-    display: inline-block;
+img{
     width: 100%;
-    border-bottom: 5px solid #C0C0C0;
-   
-}
-
-
-.introMenu{
-    color: black;
-    display: inline-block;
-    margin: 0px 0px 0px 0px;
-    padding: 0px 10px 0px 10px;
-    float: right;
-    font-size: 25px;
-    font-family: Rockwell;
-    line-height: 100px; 
-    
-}
-
-a:hover, a:visited, a:link, a:active
-{
-    text-decoration: none;
-    
-
-}
-
-a:visited{
-    text-decoration: none;
-    color: #000000;
-}
-
-
-    
-#portfolioIcon{
-    margin-right: 100px;
-    height: 100%;
-    
-}
-
-
-
-.grow {
-  display: inline-block;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-}
-.grow:hover, .grow:focus, .grow:active {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
-
-.wrapper{
-    width: 1000px;
-    margin: 0 auto;
-}
-
-@media all and (max-width:1100px) {
-    .wrapper {
-    width:auto;
-    }
-}
-
-#brianPic{
-    height: 350px;
-    width: 350px;
-    margin: 0px 0px 0px 0px;
-    border-radius: 30px;
-}
-
-#introTitle{
-    margin: 0px 0px 0px 0px;
-    padding: 30px 0px 35px 0px;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    display:block;
-    vertical-align: top;
-}
-
-
-#introP{
-    display:inline-block;
-    width: 49%;
-   
-    vertical-align: middle;
-}
-#introPic{
-    display:inline-block;
-    width:49%;
-    text-align: center;
-    vertical-align: middle;
-}
-
-#aboutMe{
-    
-    background-image: url("blackBackground.jpg") ;
-    
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    font-size: 20px;
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 90px 0px;
-    line-height: 200%  
-}
-
-#journey{
-    background-image: url("mirrored-squares.jpg") ;
-    font-family: 'Montserrat', sans-serif;
-}
-
-#journeyHeader{
-    font-family: 'Montserrat', sans-serif;
-    font-size:200%;
-    margin: 0px 0px 0px 0px;
-    padding: 70px 0px 80px 0px;
-}
-
-#waterlooPic{
-    text-align: center;
-    
-    width: 400px;
     height: auto;
-   
 }
-
-#journeyPic{
- text-align: center;
- margin: 0 auto;
- display:block;
- height: 320px;
- width: 400px;
-  
+figure > a>img{
+    width: 75%;
+    height: auto;
+     margin: 0 auto;
 }
-
-.sepia {
-			filter: sepia(100%);
-			-webkit-filter: sepia(100%);
-			-moz-filter: sepia(100%);
-			-o-filter: sepia(100%);
-			-ms-filter: sepia(100%);
+.hr {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-color: #727878;
+    opacity: 0.2;
 }
-
-.sepia:hover {
-			filter: sepia(0);
-			-webkit-filter: sepia(0);
-			-moz-filter: sepia(0);
-			-o-filter: sepia(0);
-			-ms-filter: sepia(0);
-}
-
-
-#lifestory{
-    line-height: 175%;
-    margin: 0px 0px 0px 0px;
-    padding: 70px 50px 70px 50px;
-}
-
-#projects{
-    background-image: url("projectBackground.JPG");
-    padding: 20px 0px 40px 0px;
-}
-
-#projectIntro{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    font-size: 20px;
-    display: inline-block;
-    width: 49%;
-    vertical-align: top;
-    
-}
-
-#projectTitle{
-    margin: 0px 0px 0px 0px;
-}
-
-#projectPictures{
-    display: inline-block;
-    width: 49%;
-    vertical-align: middle;
-    
-}
-
-#contact{
-    background-image: url("blackBackground.jpg");
-    font-family: 'Open Sans', sans-serif;
-    color: #FFFFFF;
-}
-#contactInfo{
-    padding: 40px 0px 0px 0px;
-    font-size: 20px
-}
-#contactGreeting{
-    
+p.lead {
     text-align: center;
+    color: #727878;
+}
+.fixed-bg{
+    background-image: url('images/snowymountain.jpg');
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-#contactIcons{
-    
-    margin: 30px auto 0px auto;
-    
-    text-align: center;
+.body-class {
+    background-color: #F3EFE0;
+    font-size: 15px;
+    line-height: 1.64;
 }
 
-.fa{
-    padding: 0px 12px 0px 12px;
+h1 {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #FFFFFF;
+    border-bottom-color: rgba(255,255,255,0.35);
+    display: inline-block;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, strong, b {
+    font-family: 'Open Sans', sans-serif !important;
+    margin-bottom: 20px;
+}
+
+
+/* Font size */
+
+.font-63{
+    font-size: 63px;
+}
+.font-54{
+    font-size: 54px;
+}
+.font-28{
+    font-size: 28px;
+}
+.font-20{
+    font-size: 18px;
+}
+
+/* Font color */
+
+.font-white{
     color: #FFFFFF;
 }
 
-#shoutout{
-    padding: 40px 0px 40px 0px;
-    font-family: 'Dancing Script', cursive;
+.font-green{
+    color: #22A39F;
+}
+
+.font-grey{
+    color: #434242;
+}
+.font-lightgrey{
+    color: #727878;
+}
+/* text center */
+
+.text-center{
     text-align: center;
+}
+
+/*font weight*/
+.fontweight-700{
+    font-weight: 700
+}
+.fontweight-300{
+    font-weight: 300
+}
+.fontweight-200{
+    font-weight: 200
+}
+
+.block-display{
+    display: block;
+}
+.top-28-percent{
+    top: 28%;
+}
+
+.pos-relative{
+    position: relative;
+}
+
+.background-white{
+    background-color: #ffffff;
+}
+.background-grey{
+    background-color: #434242;
+}
+.margin-bottom-20{
+    margin-bottom: 20px;
+}
+
+.font-sans{
+        font-family: 'Open Sans', sans-serif !important;
+}
+
+.container {
+    max-width: 1280px;
+}
+
+.padding{
+    padding: 40px 180px;
+}
+.margin-top-8{
+    margin-top: 8px;
+}
+
+.margin-right-20{
+    margin-right: 20px;
+}
+.margin-bottom-10{
+    margin-bottom: 10px;
+}
+
+.no-bullets{
+        list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.glyphicon{
+    color:#DFE0E0;
+}
+.glyphicon.filled{
+    color:#22A39F;
+}
+
+ul > li{
+        min-height: 30px;
+    padding: 3px 0px;
 }
