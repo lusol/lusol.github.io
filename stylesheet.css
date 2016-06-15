@@ -1,3 +1,4 @@
+
 .big-icon-40{
     font-size: 220px;
 }
@@ -31,10 +32,13 @@ p.lead {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center; /*horizonta*/
+    align-items: center; /*vertical*/
 }
 
 .body-class {
-    background-color: #F3EFE0;
+    background-color: #EEE;
     font-size: 15px;
     line-height: 1.64;
 }
@@ -127,6 +131,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, strong, b {
 
 .container {
     max-width: 1280px;
+    margin-top: 0px;
+    padding: 40px, 180px;
 }
 
 .padding{
@@ -159,4 +165,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, strong, b {
 ul > li{
         min-height: 30px;
     padding: 3px 0px;
+}
+
+/* float */
+.float-right{
+    float: right;
 }
