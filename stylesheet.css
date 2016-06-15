@@ -27,7 +27,7 @@ p.lead {
 }
 .fixed-bg{
     background-image: url('images/snowymountain.jpg');
-    min-height: 800px;
+    height: 100vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
